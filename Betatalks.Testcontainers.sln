@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3E52DB4C-2329-4BA6-A5C8-54644664B40B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3EFD55E4-E174-43F1-B0B2-D3285FEBAE17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Betatalks.Testcontainers.Api", "src\Betatalks.Testcontainers.Api\Betatalks.Testcontainers.Api.csproj", "{75820F28-9736-4779-934E-646BF30D2141}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Betatalks.Testcontainers.Core", "src\Betatalks.Testcontainers.Core\Betatalks.Testcontainers.Core.csproj", "{8856C13D-F62B-4869-AF27-33D17486ED91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Betatalks.Testcontainers.Infrastructure", "src\Betatalks.Testcontainers.Infrastructure\Betatalks.Testcontainers.Infrastructure.csproj", "{698E240D-B5D2-4EC7-B813-75B2F64451B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Betatalks.Testcontainers.IntegrationTests", "test\Betatalks.Testcontainers.IntegrationTests\Betatalks.Testcontainers.IntegrationTests.csproj", "{1B2CBFD6-EA1E-4C3C-942F-94B025414969}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution folder", "Solution folder", "{4E1EDBA2-3ECF-43E1-9118-4070DB227D78}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75820F28-9736-4779-934E-646BF30D2141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75820F28-9736-4779-934E-646BF30D2141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75820F28-9736-4779-934E-646BF30D2141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75820F28-9736-4779-934E-646BF30D2141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8856C13D-F62B-4869-AF27-33D17486ED91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8856C13D-F62B-4869-AF27-33D17486ED91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8856C13D-F62B-4869-AF27-33D17486ED91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8856C13D-F62B-4869-AF27-33D17486ED91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698E240D-B5D2-4EC7-B813-75B2F64451B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698E240D-B5D2-4EC7-B813-75B2F64451B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698E240D-B5D2-4EC7-B813-75B2F64451B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698E240D-B5D2-4EC7-B813-75B2F64451B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2CBFD6-EA1E-4C3C-942F-94B025414969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2CBFD6-EA1E-4C3C-942F-94B025414969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2CBFD6-EA1E-4C3C-942F-94B025414969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2CBFD6-EA1E-4C3C-942F-94B025414969}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75820F28-9736-4779-934E-646BF30D2141} = {3E52DB4C-2329-4BA6-A5C8-54644664B40B}
+		{8856C13D-F62B-4869-AF27-33D17486ED91} = {3E52DB4C-2329-4BA6-A5C8-54644664B40B}
+		{698E240D-B5D2-4EC7-B813-75B2F64451B5} = {3E52DB4C-2329-4BA6-A5C8-54644664B40B}
+		{1B2CBFD6-EA1E-4C3C-942F-94B025414969} = {3EFD55E4-E174-43F1-B0B2-D3285FEBAE17}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CD5FB26-2AFE-45CB-8F7F-4157656E29D0}
+	EndGlobalSection
+EndGlobal
